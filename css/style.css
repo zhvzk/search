@@ -1,0 +1,109 @@
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.forum-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    height: 50px;
+}
+.header-about-user {
+    width: 100px;
+    position: absolute;
+    right: 60px;
+}
+.header-about-user-logout{
+    margin-left: 20px;
+    color: black;
+}
+.main-title {
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+    margin-top: 70px;
+    display: inline-block;
+    padding-bottom: 70px;
+
+}
+.container-themes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D3D3F5;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+}
+.about-theme {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.about-theme-title {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.about-theme-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+.about-theme-author {
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7E7E7E;
+}
+.button-visit {
+    width: 178px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #6154BF;
+    border: 1px solid #6154BF;
+    box-sizing: border-box;
+    border-radius: 28px;
+    background: none;
+
+}
+.button-visit:hover {
+    background: #6154BF;
+    color: white;
+}
+.container-pagination {
+    text-align: center;
+}
+.pagination-active {
+    text-decoration: underline;
+}
+
+.pagination-active {
+    padding: 3px;
+    font-size: 10px;
+    line-height: 11px;
+    text-decoration-line: underline;
+    color: #6154BF;
+}
+.pagination-inactive {
+    padding: 3px;
+    font-size: 10px;
+    line-height: 11px;
+    color: #6154BF;
+}
+.input-search {
+    margin-bottom: 50px;
+}
