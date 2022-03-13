@@ -5,7 +5,7 @@ $mysqli->set_charset("UTF8");
 
 if (strlen($_GET['search']) > 3) { //введенная строка больше 3
     $stringToSearch = htmlspecialchars($_GET['search']); //строка для поиска
-    $getThemeQuery = "SELECT `title`, `login`, `date` FROM `themes` INNER JOIN `users` ON `themes`.`id_user` = `users`.`id` WHERE `themes`.`title` LIKE '$stringToSearch%'";
+    $getThemeQuery = "SELECT `title`, `login`, `date` FROM `themes` INNER JOIN `users` ON `themes`.`id_user` = `users`.`id` WHERE `themes`.`title` LIKE '%$stringToSearch%'";
     $res = $mysqli->query($getThemeQuery); //найденные темы
     $getThemeCount = $res->num_rows; //количество найденных тем
 
